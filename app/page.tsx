@@ -9,7 +9,7 @@ interface Task {
 }
 export default async function Home() {
   const { data, error } = await supabase.from("tasks").select("*");
-
+  //dsadasdas
   if (error) {
     alert("error fetching data" + error.message);
     return;
