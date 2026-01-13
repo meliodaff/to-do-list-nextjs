@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import TaskList from "./components/TaskList";
 import { supabase } from "@/lib/db";
 interface Task {
